@@ -5133,7 +5133,7 @@ const serviceProvidersData = [
       support: {
         email: "support@delhielectric.com",
         phone: "+91-9876543210"
-      ],
+      },
       outlets: [
         {
           name: "Delhi Electric Connaught Place",
@@ -5150,17 +5150,18 @@ const serviceProvidersData = [
       ]
     }
   },
+
   // Mumbai
   {
     category: "Plumber",
     metropolis: "Mumbai",
     details: {
-      name: "Mumbai Plumbing Experts",
+      name: "Mumbai Plumbing Solutions",
       image: "https://example.com/mumbai-plumber.jpg",
-      description: "Affordable plumbing solutions in Mumbai.",
-      address: "Andheri West, Mumbai",
-      timings: "Mon-Sun: 9 AM - 7 PM",
-      payment: "Cash, UPI, Bank Transfers",
+      description: "Reliable plumbing services across Mumbai.",
+      address: "Bandra, Mumbai",
+      timings: "Mon-Sun: 7 AM - 7 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
       mapLink: "https://maps.example.com/mumbai-plumber",
       serviceLink: "https://www.mumbaiplumbing.com/",
       images: [
@@ -5173,28 +5174,28 @@ const serviceProvidersData = [
         instagram: "https://instagram.com/mumbaiplumbing"
       },
       services: [
-        { name: "Pipe Replacement", price: "$70", image: "https://example.com/pipe-replacement.jpg" },
-        { name: "Drain Cleaning", price: "$40", image: "https://example.com/drain-cleaning.jpg" }
+        { name: "Drain Cleaning", price: "$40", image: "https://example.com/drain-cleaning.jpg" },
+        { name: "Water Heater Repair", price: "$70", image: "https://example.com/water-heater.jpg" }
       ],
       promos: [
-        { code: "MUMBAI20", description: "20% off for new customers" }
+        { code: "MUMBAI20", description: "Get 20% off on your first service" }
       ],
       support: {
-        email: "help@mumbaiplumbing.com",
-        phone: "+91-9988776655"
+        email: "support@mumbaiplumbing.com",
+        phone: "+91-1122334455"
       },
       outlets: [
         {
-          name: "Mumbai Plumbing Andheri",
-          address: "Andheri West, Mumbai",
-          timings: "Mon-Sun: 9 AM - 7 PM",
-          mapLink: "https://maps.example.com/mumbai-andheri"
-        },
-        {
           name: "Mumbai Plumbing Bandra",
           address: "Bandra, Mumbai",
-          timings: "Mon-Sun: 9 AM - 7 PM",
-          mapLink: "https://maps.example.com/mumbai-bandra"
+          timings: "Mon-Sun: 7 AM - 7 PM",
+          mapLink: "https://maps.example.com/mumbai-plumber-bandra"
+        },
+        {
+          name: "Mumbai Plumbing Andheri",
+          address: "Andheri, Mumbai",
+          timings: "Mon-Sun: 7 AM - 7 PM",
+          mapLink: "https://maps.example.com/mumbai-plumber-andheri"
         }
       ]
     }
@@ -5203,51 +5204,247 @@ const serviceProvidersData = [
     category: "Electrician",
     metropolis: "Mumbai",
     details: {
-      name: "Electrician Mumbai",
+      name: "Mumbai Electric Works",
       image: "https://example.com/mumbai-electrician.jpg",
-      description: "Efficient and reliable electrical solutions.",
-      address: "Powai, Mumbai",
-      timings: "Mon-Sat: 10 AM - 6 PM",
-      payment: "Cash, Credit Cards",
+      description: "Expert electricians for residential and commercial needs.",
+      address: "Andheri, Mumbai",
+      timings: "Mon-Sun: 8 AM - 8 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
       mapLink: "https://maps.example.com/mumbai-electrician",
-      serviceLink: "https://www.electricianmumbai.com/",
+      serviceLink: "https://www.mumbaielectric.com/",
       images: [
         "https://example.com/mumbai-electrician1.jpg",
         "https://example.com/mumbai-electrician2.jpg"
       ],
       social: {
-        facebook: "https://facebook.com/electricianmumbai",
-        twitter: "https://twitter.com/electricianmumbai",
-        instagram: "https://instagram.com/electricianmumbai"
+        facebook: "https://facebook.com/mumbaielectric",
+        twitter: "https://twitter.com/mumbaielectric",
+        instagram: "https://instagram.com/mumbaielectric"
       },
       services: [
-        { name: "Home Wiring", price: "$120", image: "https://example.com/home-wiring.jpg" },
-        { name: "Switchboard Repair", price: "$50", image: "https://example.com/switchboard.jpg" }
+        { name: "Electrical Inspection", price: "$80", image: "https://example.com/inspection.jpg" },
+        { name: "Lighting Installation", price: "$50", image: "https://example.com/lighting.jpg" }
       ],
       promos: [
-        { code: "ELECMUM10", description: "10% off on first booking" }
+        { code: "MUMELEC25", description: "Get 25% off on your first service" }
       ],
       support: {
-        email: "support@electricianmumbai.com",
-        phone: "+91-8877665544"
+        email: "support@mumbaielectric.com",
+        phone: "+91-9988776655"
       },
       outlets: [
         {
-          name: "Electrician Mumbai Powai",
-          address: "Powai, Mumbai",
-          timings: "Mon-Sat: 10 AM - 6 PM",
-          mapLink: "https://maps.example.com/mumbai-powai"
+          name: "Mumbai Electric Andheri",
+          address: "Andheri, Mumbai",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/mumbai-electrician-andheri"
         },
         {
-          name: "Electrician Mumbai Borivali",
-          address: "Borivali, Mumbai",
-          timings: "Mon-Sat: 10 AM - 6 PM",
-          mapLink: "https://maps.example.com/mumbai-borivali"
+          name: "Mumbai Electric Thane",
+          address: "Thane, Mumbai",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/mumbai-electrician-thane"
         }
       ]
     }
   },
-  // Add Bangalore, Chennai, and Kolkata here following the same structure.
+
+  // Bangalore
+  {
+    category: "Plumber",
+    metropolis: "Bangalore",
+    details: {
+      name: "Bangalore Plumbing Experts",
+      image: "https://example.com/bangalore-plumber.jpg",
+      description: "Top-notch plumbing services in Bangalore.",
+      address: "Koramangala, Bangalore",
+      timings: "Mon-Sun: 8 AM - 8 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
+      mapLink: "https://maps.example.com/bangalore-plumber",
+      serviceLink: "https://www.bangaloreplumbing.com/",
+      images: [
+        "https://example.com/bangalore-plumber1.jpg",
+        "https://example.com/bangalore-plumber2.jpg"
+      ],
+      social: {
+        facebook: "https://facebook.com/bangaloreplumbing",
+        twitter: "https://twitter.com/bangaloreplumbing",
+        instagram: "https://instagram.com/bangaloreplumbing"
+      },
+      services: [
+        { name: "Pipe Replacement", price: "$90", image: "https://example.com/pipe-replacement.jpg" },
+        { name: "Sewer Line Repair", price: "$120", image: "https://example.com/sewer-line.jpg" }
+      ],
+      promos: [
+        { code: "BANG10", description: "Get 10% off on your first service" }
+      ],
+      support: {
+        email: "support@bangaloreplumbing.com",
+        phone: "+91-6655443322"
+      },
+      outlets: [
+        {
+          name: "Bangalore Plumbing Koramangala",
+          address: "Koramangala, Bangalore",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/bangalore-plumber-koramangala"
+        },
+        {
+          name: "Bangalore Plumbing Whitefield",
+          address: "Whitefield, Bangalore",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/bangalore-plumber-whitefield"
+        }
+      ]
+    }
+  },
+  {
+    category: "Electrician",
+    metropolis: "Bangalore",
+    details: {
+      name: "Bangalore Electrical Solutions",
+      image: "https://example.com/bangalore-electrician.jpg",
+      description: "Professional electrical services in Bangalore.",
+      address: "Whitefield, Bangalore",
+      timings: "Mon-Sun: 9 AM - 9 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
+      mapLink: "https://maps.example.com/bangalore-electrician",
+      serviceLink: "https://www.bangaloreelectric.com/",
+      images: [
+        "https://example.com/bangalore-electrician1.jpg",
+        "https://example.com/bangalore-electrician2.jpg"
+      ],
+      social: {
+        facebook: "https://facebook.com/bangaloreelectric",
+        twitter: "https://twitter.com/bangaloreelectric",
+        instagram: "https://instagram.com/bangaloreelectric"
+      },
+      services: [
+        { name: "Circuit Breaker Repair", price: "$75", image: "https://example.com/circuit-breaker.jpg" },
+        { name: "Outlet Installation", price: "$45", image: "https://example.com/outlet-installation.jpg" }
+      ],
+      promos: [
+        { code: "BANGELEC20", description: "Get 20% off on your first service" }
+      ],
+      support: {
+        email: "support@bangaloreelectric.com",
+        phone: "+91-7788990011"
+      },
+      outlets: [
+        {
+          name: "Bangalore Electric Whitefield",
+          address: "Whitefield, Bangalore",
+          timings: "Mon-Sun: 9 AM - 9 PM",
+          mapLink: "https://maps.example.com/bangalore-electrician-whitefield"
+        },
+        {
+          name: "Bangalore Electric Electronic City",
+          address: "Electronic City, Bangalore",
+          timings: "Mon-Sun: 9 AM - 9 PM",
+          mapLink: "https://maps.example.com/bangalore-electrician-electronic-city"
+        }
+      ]
+    }
+  },
+
+  // Kolkata
+  {
+    category: "Plumber",
+    metropolis: "Kolkata",
+    details: {
+      name: "Kolkata Plumbing Services",
+      image: "https://example.com/kolkata-plumber.jpg",
+      description: "Efficient plumbing services in Kolkata.",
+      address: "Salt Lake, Kolkata",
+      timings: "Mon-Sun: 8 AM - 8 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
+      mapLink: "https://maps.example.com/kolkata-plumber",
+      serviceLink: "https://www.kolkataplumbing.com/",
+      images: [
+        "https://example.com/kolkata-plumber1.jpg",
+        "https://example.com/kolkata-plumber2.jpg"
+      ],
+      social: {
+        facebook: "https://facebook.com/kolkataplumbing",
+        twitter: "https://twitter.com/kolkataplumbing",
+        instagram: "https://instagram.com/kolkataplumbing"
+      },
+      services: [
+        { name: "Water Tank Cleaning", price: "$60", image: "https://example.com/water-tank.jpg" },
+        { name: "Bathroom Fitting", price: "$85", image: "https://example.com/bathroom-fitting.jpg" }
+      ],
+      promos: [
+        { code: "KOLPLUMB15", description: "Get 15% off on your first service" }
+      ],
+      support: {
+        email: "support@kolkataplumbing.com",
+        phone: "+91-3344556677"
+      },
+      outlets: [
+        {
+          name: "Kolkata Plumbing Salt Lake",
+          address: "Salt Lake, Kolkata",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/kolkata-plumber-salt-lake"
+        },
+        {
+          name: "Kolkata Plumbing Howrah",
+          address: "Howrah, Kolkata",
+          timings: "Mon-Sun: 8 AM - 8 PM",
+          mapLink: "https://maps.example.com/kolkata-plumber-howrah"
+        }
+      ]
+    }
+  },
+  {
+    category: "Electrician",
+    metropolis: "Kolkata",
+    details: {
+      name: "Kolkata Electrical Works",
+      image: "https://example.com/kolkata-electrician.jpg",
+      description: "Trusted electricians for all your electrical needs in Kolkata.",
+      address: "Howrah, Kolkata",
+      timings: "Mon-Sun: 9 AM - 9 PM",
+      payment: "Cash, Credit/Debit Cards, UPI",
+      mapLink: "https://maps.example.com/kolkata-electrician",
+      serviceLink: "https://www.kolkataelectric.com/",
+      images: [
+        "https://example.com/kolkata-electrician1.jpg",
+        "https://example.com/kolkata-electrician2.jpg"
+      ],
+      social: {
+        facebook: "https://facebook.com/kolkataelectric",
+        twitter: "https://twitter.com/kolkataelectric",
+        instagram: "https://instagram.com/kolkataelectric"
+      },
+      services: [
+        { name: "Switchboard Repair", price: "$55", image: "https://example.com/switchboard.jpg" },
+        { name: "Ceiling Fan Installation", price: "$35", image: "https://example.com/ceiling-fan.jpg" }
+      ],
+      promos: [
+        { code: "KOLELEC10", description: "Get 10% off on your first service" }
+      ],
+      support: {
+        email: "support@kolkataelectric.com",
+        phone: "+91-4455667788"
+      },
+      outlets: [
+        {
+          name: "Kolkata Electric Howrah",
+          address: "Howrah, Kolkata",
+          timings: "Mon-Sun: 9 AM - 9 PM",
+          mapLink: "https://maps.example.com/kolkata-electrician-howrah"
+        },
+        {
+          name: "Kolkata Electric Park Street",
+          address: "Park Street, Kolkata",
+          timings: "Mon-Sun: 9 AM - 9 PM",
+          mapLink: "https://maps.example.com/kolkata-electrician-park-street"
+        }
+      ]
+    }
+  }
+  // Add more service providers as needed
 ];
 
 // Debounce function to limit the rate of search execution
